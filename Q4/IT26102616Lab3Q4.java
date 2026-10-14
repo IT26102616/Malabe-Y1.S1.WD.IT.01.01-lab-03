@@ -3,9 +3,10 @@ import java.until.Scanner;
 public class IT26102616Lab3Q4 {
     public static void main(String[] args) {
 	
-        Scanner scanner = new Scanner(System.in);
-        System.out.print("Enter a five-digit number: ");
-        int num = scanner.nextInt();
+     Scanner scanner = new Scanner(System.in);
+     System.out.print("Enter a five-digit number: ");
+    
+    int num = scanner.nextInt();
 
         int d1 = num / 10000;
         int d2 = (num / 1000) % 10;
